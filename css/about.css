@@ -1,0 +1,43 @@
+.aboutHeadingLanding{
+    width: 50%;
+    padding-right: 30px;
+}
+.aboutBlockImage {
+    float: right;
+    margin-right: 0;
+    justify-content: end;
+    width: 50%;
+    display: flex;
+}
+
+.abotLandingPara {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.abotLandingHeading {
+    font-size: 60px;
+    color: rgb(255, 145, 0);
+}
+
+.teamMember {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.profileImg {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.aboutMember {
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.teamMemberAboutPara {
+    line-height: 1.6;
+}

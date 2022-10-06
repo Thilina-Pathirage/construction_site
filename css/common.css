@@ -1,0 +1,107 @@
+html, body{
+    margin: 0;
+    font-family: Poppins;
+}
+.navbar {
+    padding-top: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(252, 245, 236);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.navbarItems {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navItem {
+    margin-left: 20px;
+}
+
+.navLink {
+    text-decoration: none;
+    color: rgb(255, 111, 0);
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.navLogo {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.navLink:hover {
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+
+.active {
+    color: black !important;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding-top: 2px;
+    text-align: center;
+}
+
+.ccPara {
+    color: white;
+}
+
+
+.contactUsBtn {
+    width: 12vw;
+    height: 50px;
+    border-radius: 10px;
+    border: unset;
+    font-size: larger;
+    transition-duration: 0.3s;
+    font-weight: bold;
+    background-color: bisque;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.contactUsBtn:hover {
+    background-color: rgb(247, 201, 144);
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.seeMoreBtn {
+    color: white;
+    font-weight: 600;
+    height: 25px;
+    border-radius: 5px;
+    border: unset;
+    transition-duration: 0.3s;
+    background-color: rgb(255, 145, 0);
+}
+
+.seeMoreBtn:hover {
+    cursor: pointer;
+    color: bisque;
+    background-color: rgb(205, 118, 4);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}

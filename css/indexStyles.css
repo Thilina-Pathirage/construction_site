@@ -1,0 +1,57 @@
+
+.mainHeadingText {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.mainHeadingTextVarient {
+    font-size: 60px;
+    color: rgb(255, 145, 0);
+    margin-left: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+.landingImage {
+    margin-left: 30px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/landingImage.png');
+}
+
+
+.secondHeadingLanding{
+    width: 50%;
+    padding-right: 30px;
+}
+.secondBlockImage {
+    float: right;
+    margin-right: 0;
+    justify-content: end;
+    width: 50%;
+    display: flex;
+}
+
+.thiredBlock {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.visMisBlock {
+    height: 230px;
+    width: 50vw;
+    background-color: bisque;
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.visMisPara {
+    line-height: 1.5;
+}
