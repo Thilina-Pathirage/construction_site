@@ -1,0 +1,9 @@
+.cardimage{
+    background-image: url(../images/02C.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-right: 20px;
+}
